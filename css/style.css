@@ -1,0 +1,57 @@
+@import url(/css/nullStayle.css);
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #b5d2d3;
+  font-size: 40px;
+}
+
+.content {
+  color: #42125e;
+}
+
+.grid__body {
+  display: -ms-grid;
+  display: grid;
+  margin: 10px;
+  -ms-grid-columns: 200px 200px minmax(150px, 1fr);
+      grid-template-columns: 200px 200px minmax(150px, 1fr);
+}
+
+.grid__items {
+  margin: 10px;
+  text-align: center;
+  padding: 30px;
+  border: 2px dotted darkblue;
+}
+
+.gridd__body {
+  display: -ms-grid;
+  display: grid;
+  margin: 15px;
+  -ms-grid-columns: (250px)[3];
+      grid-template-columns: repeat(3, 250px);
+}
+
+.gridd__elements {
+  border: 1px dotted darkred;
+  margin: 5px;
+  text-align: center;
+}
+
+.grid__items_1 {
+  background-color: #b6a283;
+  color: black;
+  border-radius: 40px;
+}
+
+.grid__items_3,
+.gridd__elements_2,
+.gridd__elements_4,
+.gridd__elements_6,
+.grid__items_5 {
+  background-color: darksalmon;
+  color: black;
+  margin: 25px;
+  border-radius: 15px;
+}
